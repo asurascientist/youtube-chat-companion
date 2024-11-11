@@ -6,14 +6,20 @@ name = "pypi"
 [packages]
 pandas = "*"
 scikit-learn = "*"
-youtube-transcript-api = "*"
-elasticsearch = "*"
 openai = "*"
+ipykernel = "*"
+youtube-transcript-api = "*"
+python-dotenv = "*"
+"psycopg2.binary" = "*"
+flask = "*"
+gunicorn = "*"
 
 [dev-packages]
 notebook = "*"
 tqdm = "*"
 ipywidgets = "*"
+pgcli = "*"
+requests = "*"
 
 [requires]
 python_version = "3.12"
